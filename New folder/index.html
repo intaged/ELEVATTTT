@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEAVATE.AI - Decentralized GPU Power for AI Workloads</title>
+    <meta name="description" content="ELEAVATE.AI harnesses decentralized GPU power to make AI workloads faster and more cost-effective">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Add these before your main.js script -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+<body>
+    <!-- Add this right after the opening <body> tag -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loading-animation">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="loader-text">
+                <span class="token-symbol">$ELEVATE</span>
+                <span class="loading-message">Empowering the Future of AI.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                ELEVATE<span class="ai-text">.AI</span>
+                <div class="underline-container">
+                    <div class="underline"></div>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+                <a href="https://twitter.com/elevate" target="_blank">X</a>
+                <a href="https://t.me/elevate" target="_blank">Telegram</a>
+                <a href="#" class="cta-button">Buy $ELEVATE</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Updated Hero Section -->
+    <section class="hero">
+        <div class="chart-background">
+            <canvas id="tradingChart"></canvas>
+        </div>
+        <div class="container">
+            <h1 class="animate-text">Elevate Your Crypto Trading with AI-Powered Insights</h1>
+            <p class="hero-subtitle animate-text">Harness the power of artificial intelligence to boost your trading success rate and deepen your understanding of crypto and Solana</p>
+            <div class="cta-group">
+                <a href="#portfolio-analysis" class="primary-button">Start Trading Smarter</a>
+                <a href="#portfolio-analysis" class="secondary-button">Explore Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Elevate Section -->
+    <section id="how-it-works" class="section">
+        <div class="visual-elements">
+            <div class="particles-container"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+            <div class="diagonal-lines"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">How We Elevate Your Crypto Journey</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon-wrapper">
+                        <div class="icon-rotate">📈</div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>AI-Powered Analysis</h3>
+                        <p>Advanced algorithms analyze market trends to optimize your trading decisions</p>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon-wrapper">
+                        <div class="icon-rotate">🎓</div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Knowledge Enhancement</h3>
+                        <p>Access curated resources and real-time insights about crypto and Solana</p>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon-wrapper">
+                        <div class="icon-rotate">🤖</div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Strategic Insights</h3>
+                        <p>Get AI-driven forecasts and trading recommendations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connection-lines">
+                <svg class="lines" viewBox="0 0 1000 300" preserveAspectRatio="none">
+                    <path class="line-path" d="M0,150 C200,50 800,250 1000,150"/>
+                    <path class="line-path" d="M0,150 C200,250 800,50 1000,150"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token -->
+    <section id="token" class="section token-section">
+        <div class="visual-elements">
+            <div class="particles-container"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+            <div class="diagonal-lines"></div>
+        </div>
+        <div class="container">
+            <h2>Token $ELEVATE</h2>
+            <div class="token-content">
+                <p class="token-description">
+                    The $ELEVATE ecosystem utility token empowers you to unlock the full potential of the ELEAVATE.AI platform. $ELEVATE is required to access premium features, including advanced AI model performance simulations, exclusive analytics tools, and priority access to enhanced computational resources. Whether through a subscription model or pay-per-query usage, $ELEVATE gives users the ability to elevate their AI workloads efficiently and cost-effectively.
+                </p>
+                <div class="token-features">
+                    <span>Pump Fun</span>
+                    <span class="separator">|</span>
+                    <span>LP Burned</span>
+                    <span class="separator">|</span>
+                    <span>No Mintable</span>
+                </div>
+                <div class="contract-address">
+                    <span class="label">Contract Address:</span>
+                    <div class="address-container">
+                        <span class="address">COMING SOON</span>
+                    </div>
+                </div>
+                <div class="token-links">
+                    <a href="#" class="token-link">CoinGecko</a>
+                    <a href="#" class="token-link">DexScreener</a>
+                    <a href="#" class="token-link">DexTools</a>
+                    <a href="#" class="token-link">Raydium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Analysis -->
+    <section id="portfolio-analysis" class="section portfolio-section">
+        <div class="visual-elements">
+            <div class="particles-container"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+            <div class="diagonal-lines"></div>
+        </div>
+        <div class="container">
+            <h2>Elevate Your Portfolio</h2>
+            <div class="portfolio-features">
+                <!-- Free Features -->
+                <div class="feature-column free-features">
+                    <h3>Basic Analysis <span class="feature-tag">Free</span></h3>
+                    <div class="feature-content">
+                        <div class="portfolio-input">
+                            <h4>Portfolio Input</h4>
+                            <div class="input-options">
+                                <button class="input-option">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Manual Input
+                                </button>
+                                <a href="https://phantom.app" target="_blank" class="input-option">
+                                    <i class="fas fa-link"></i>
+                                    Connect Wallet
+                                </a>
+                            </div>
+                        </div>
+                        <div class="analysis-features">
+                            <div class="analysis-card">
+                                <i class="fas fa-chart-pie"></i>
+                                <h4>Basic Portfolio Analysis</h4>
+                                <ul>
+                                    <li>Portfolio Value Tracking</li>
+                                    <li>Basic Risk Assessment</li>
+                                    <li>Simple Diversification Tips</li>
+                                </ul>
+                            </div>
+                            <div class="analysis-card">
+                                <i class="fas fa-bell"></i>
+                                <h4>Basic Alerts</h4>
+                                <ul>
+                                    <li>Price Movement Notifications</li>
+                                    <li>Market Trend Alerts</li>
+                                    <li>Basic Portfolio Updates</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium Features -->
+                <div class="feature-column premium-features">
+                    <h3>Advanced Analysis <span class="feature-tag premium">Requires $ELEVATE</span></h3>
+                    <div class="feature-content">
+                        <div class="premium-features">
+                            <div class="premium-card">
+                                <i class="fas fa-robot"></i>
+                                <h4>AI-Driven Insights</h4>
+                                <ul>
+                                    <li>Smart Portfolio Rebalancing</li>
+                                    <li>Predictive Performance Modeling</li>
+                                    <li>Personalized Growth Strategies</li>
+                                </ul>
+                                <button class="unlock-button">
+                                    Unlock with $ELEVATE
+                                </button>
+                            </div>
+                            <div class="premium-card">
+                                <i class="fas fa-brain"></i>
+                                <h4>Advanced Alerts</h4>
+                                <ul>
+                                    <li>Custom Trading Signals</li>
+                                    <li>Behavioral Pattern Alerts</li>
+                                    <li>Risk Exposure Monitoring</li>
+                                </ul>
+                                <button class="unlock-button">
+                                    Unlock with $ELEVATE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section id="blog" class="section blog-section">
+        <div class="container">
+            <h2>Latest Updates</h2>
+            <div class="blog-grid">
+                <!-- Blog posts will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ELEVATE.AI</h3>
+                    <p>Empowering Crypto Success and Knowledge</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Documentation</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ELEAVATE.AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/metrics.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <div class="toast-container"></div>
+</body>
+</html> 
